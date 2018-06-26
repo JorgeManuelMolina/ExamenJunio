@@ -1,0 +1,11 @@
+- A query that returns the ratio of newspapers with at least one Bust.
+
+
+	select count(distinct b.newspaper)*100/(select count(n) from Newspaper n) from Bust b);
+
+
+- A query that returns the administrator/s who has written more Busts.
+
+
+	select b.administrator from Bust b group by b.administrator having count(b)=(select count(b.administrator) from Bust b where b.administrator.id=(select max(b.administrator.id) from Bust b));
+
