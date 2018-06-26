@@ -1935,10 +1935,10 @@
 		</property>
 	</bean>
 	
-	<!-- CosaX -->
+	<!-- Bust -->
 	
-	<bean id="cosaX1" class="domain.CosaX">
-		<property name="ticker" value="111111-AAAA" />
+	<bean id="bust1" class="domain.Bust">
+		<property name="ticker" value="11AAAA-0317" />
 		<property name="title" value="titulo1" />
 		<property name="description" value="descripcion" />
 		<property name="gauge" value="3" />
@@ -1950,8 +1950,8 @@
 		<property name="newspaper" ref="newspaper1"/>
 	</bean>
 	
-	<bean id="cosaX2" class="domain.CosaX">
-		<property name="ticker" value="111111-AAAB" />
+	<bean id="bust2" class="domain.Bust">
+		<property name="ticker" value="11AAAAA-0317" />
 		<property name="title" value="titulo2" />
 		<property name="description" value="descripcion" />
 		<property name="gauge" value="3" />
@@ -1961,8 +1961,8 @@
 		<property name="newspaper" ref="newspaper2"/>
 	</bean>
 	
-		<bean id="cosaX3" class="domain.CosaX">
-		<property name="ticker" value="111111-AAAC" />
+		<bean id="bust3" class="domain.Bust">
+		<property name="ticker" value="11AA-0317" />
 		<property name="title" value="titulo3" />
 		<property name="description" value="descripcion" />
 		<property name="gauge" value="3" />
@@ -1972,8 +1972,8 @@
 		<property name="newspaper" ref="newspaper1"/>
 	</bean>
 	
-	<bean id="cosaX4" class="domain.CosaX">
-		<property name="ticker" value="111111-AAAD" />
+	<bean id="bust4" class="domain.Bust">
+		<property name="ticker" value="11AAA-0317" />
 		<property name="title" value="titulo4" />
 		<property name="description" value="descripcion" />
 		<property name="gauge" value="2" />
