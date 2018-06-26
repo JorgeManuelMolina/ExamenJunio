@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+       
+<tiles-definitions>
+
+	<definition name="cosaX/list" extends="master.page">	
+		<put-attribute name="title" value="Lista de CosaX" />
+		<put-attribute name="body" value="/views/cosaX/list.jsp" />
+	</definition>
+	
+	<definition name="cosaX/edit" extends="master.page">	
+		<put-attribute name="title" value="Edicion de CosaX" />
+		<put-attribute name="body" value="/views/cosaX/edit.jsp" />
+	</definition>
+	
+</tiles-definitions>
