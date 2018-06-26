@@ -1,0 +1,1 @@
+En mi proyecto el listado de busts de un newspaper aparece en su display
